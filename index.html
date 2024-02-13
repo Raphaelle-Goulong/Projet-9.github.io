@@ -16,7 +16,7 @@
 	<meta property="og:locale" content="fr_FR">
 	<!-- Balises meta pour les réseaux sociaux -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
 <body>
 	<nav class="top-header">
 		<!-- h3-> h1 -->
-		<h1 class="name">Nina Carducci</h1>
+		<h1 class="name" itemprop="name">Nina Carducci</h1>
 		<div class="nav">   
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -53,13 +53,13 @@
 			<div class="carousel-inner">
 				<!-- alt -->
 				<div class="carousel-item active">
-					<img src="./assets/images/slider/ryoji_iwata_wUZjnOv7t0g_unsplash.webp" class="d-block w-100" alt="Image du carousel">
+					<img src="./assets/images/slider/ryoji_iwata_wUZjnOv7t0g_unsplash.webp" class="d-block w-100" alt="Homme qui traverse au passage piéton ">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/nicholas_green_nPz8akkUmDI_unsplash.webp" class="d-block w-100" alt="Image du carousel">
+					<img src="./assets/images/slider/nicholas_green_nPz8akkUmDI_unsplash.webp" class="d-block w-100" alt="Public qui s'enjaille dans un concert">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/edward_cisneros_3_h6_1NPDGw_unsplash_min.webp" class="d-block w-100" alt="Image du carousel">
+					<img src="./assets/images/slider/edward_cisneros_3_h6_1NPDGw_unsplash_min.webp" class="d-block w-100" alt="Couple nouvellement marié qui s'embrasse">
 				</div>
 				<!-- alt -->
 
@@ -196,14 +196,14 @@
 			</div>
 			
 		</section>
-		<section class="localisation-container">
+		<section class="localisation-container" itemscope itemtype="http://schema.org/PhotographieStudio">
 			<div class="container">
-				<div class="localisation">
+				<div class="localisation" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 					<h3>Contact</h3>
 					<ul>
-						<li><p>Adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux.</p></li>
-						<li><p>Tél: 05 56 67 78 89.</p></li>
-						<li><p>Disponibilités: lundi au vendredi de 10h à 19h</p></li>
+						<li><p><span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span>.</p></li>
+						<li><p><span itemprop="telephone">Tél: 05 56 67 78 89</span></p></li>
+						<li><p>Disponibilités: <time itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">lundi au vendredi de 10h à 19h</time></p></li>
 					</ul>
 				</div>
 			</div>
