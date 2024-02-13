@@ -241,6 +241,32 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+.localisation-container{
+	color: white;
+	background: linear-gradient(70deg, #081a1d,#0e3038);
+}
+.localisation{
+	display: flex;
+	/* margin: 20px; */
+	flex-direction: column;
+	padding: 20px 0px 0px 0px;
+	width: 100%;
+	
+}
+
+.localisation  ul {
+	padding: 0;
+}
+
+.localisation  li {
+	list-style-type:none;
+
+}
+.localisation  h3 {
+	margin-bottom: 20px;
+
+}
+
 
 @media all and (max-width: 1180px) {
 	.picture {
