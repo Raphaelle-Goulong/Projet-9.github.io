@@ -1,15 +1,15 @@
 <!DOCTYPE html>
+<!-- lang -->
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<!-- meta rajouté -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="photographe :Nina Carducci, Portfolio">
 	<!-- meta rajouté -->
 
@@ -21,7 +21,8 @@
 </head>
 <body>
 <div class="top-header">
-	<h3 class="name">Nina Carducci</h3>
+	<!-- h3-> h1 -->
+	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -29,7 +30,7 @@
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
 			<!-- alt -->
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Logo Instagram"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="Logo Instagram"></a></li>
 			<!-- alt -->
 		
 		</ul>
@@ -47,13 +48,13 @@
 			<!-- alt -->
 
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Image du carousel">
+				<img src="./assets/images/slider/ryoji_iwata_wUZjnOv7t0g_unsplash.webp" class="d-block w-100" alt="Image du carousel">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="Image du carousel">
+				<img src="./assets/images/slider/nicholas_green_nPz8akkUmDI_unsplash.webp" class="d-block w-100" alt="Image du carousel">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Image du carousel">
+				<img src="./assets/images/slider/edward_cisneros_3_h6_1NPDGw_unsplash_min.webp" class="d-block w-100" alt="Image du carousel">
 			</div>
 			<!-- alt -->
 
@@ -71,13 +72,18 @@
 <div id="about">
 	<div class="picture left">
 			<!-- alt -->
-		<img src="./assets/images/nina.png" alt="Photographie de Nina Carducci">
+		<img src="./assets/images/nina.webp" alt="Photographie de Nina Carducci">
 			<!-- alt -->
 
 	</div>
 	<div id="about-me">
-		<h3 class="about-me__title">A propos de moi</h3>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+		<!-- h3->h2 -->
+		<h2 class="about-me__title">A propos de moi</h2>
+		<!-- h3->h2 -->
+		<!-- h6->h3 -->
+		<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
+		<!-- h6->h3 -->
+		
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
@@ -88,15 +94,15 @@
 			<!-- alt -->
 
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="Photographie d'un concert"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Photographie d'une entreprise "/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="Photographie d'une entrepris"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt="Photographie d'un mariage"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="Photographie d'une personne"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="Photographie d'un mariage"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="Photographie d'une personne"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="Photographie d'un concert"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="Photographie d'une entreprise"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron_paul_wnX_fXzB6Cw_unsplash.webp" alt="Photographie d'un concert"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali_morshedlou_WMD64tMfc4k_unsplash.webp" alt="Photographie d'une entreprise "/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason_goodman_tHO1_OuKbg0_unsplash.webp" alt="Photographie d'une entreprise"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah_busing_RvF2R_qMpRk_unsplash.webp" alt="Photographie d'un mariage"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade_tunji_rVkhWWZFAtQ_unsplash.webp" alt="Photographie d'une personne"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob_owens_SiniLJkXhMc_unsplash-min.webp" alt="Photographie d'un mariage"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino_van_prattenburg__443cl1uR_8_unsplash.webp" alt="Photographie d'une personne"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin_neill_hgO1wFPXl3I_unsplash.webp" alt="Photographie d'un concert"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus_campos_felipe_Fsgzm8N0hIY_unsplash.webp" alt="Photographie d'une entreprise"/>
 		</div>
 			<!-- alt -->
 
@@ -160,6 +166,7 @@
 			<h3>Une question ? Une demande de devis ?</h3>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
+				<!-- for du label -->
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
 				
@@ -170,10 +177,12 @@
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
 				
 				<input type="submit" value="Envoyer"/>
+				<!-- for du label -->
+
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.png" alt="photo d'un appareil photo">
+			<img src="./assets/images/camera.webp" alt="photo d'un appareil photo">
 		</div>
 	</div>
 </div>
